@@ -1,0 +1,216 @@
+header {
+    background-image: url("../image/homehead.jpg");
+    background-size: cover;
+}
+
+#latest {
+    text-align: center;
+}
+
+article {
+    width: 100%;
+}
+
+article h1 {
+    background-color: lightgray;
+    color: #252525;
+    width: 98%;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    padding: 5px 0 5px 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Century Gothic", Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ticket {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 98%;
+    max-height: 500px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    border: 2px solid #8c0000;
+    margin: 15px 0;
+}
+
+.ticket img {
+    height: 350px;
+    float: left;
+    width: 60%;
+}
+
+.ticket .beschrijving {
+    padding-left: 62%;
+    width: 35%;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.ticket h2{
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ticket select{
+    padding-right: 20px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.ticket .prijs{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.ticket button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 70px;
+    background: #8c0000;
+    border: 1px solid #8c0000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    padding: 0px;
+    text-align: center;
+}
+.ticket button:hover {
+       opacity: 0.9;
+   }
+
+.ticket input {
+    width: 70px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding-left: 10px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #8c0000;
+}
+
+form {
+    border-radius: 5px;
+    width:98%;
+    margin: auto;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    border: 2px solid firebrick;
+}
+
+form input {
+    width: 75%;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.form-group {
+    overflow: hidden;
+    clear: both;
+    padding: 10px 30px;
+}
+
+.send {
+    color: #FFF;
+    text-align: center;
+    float: right;
+    width: 60%;
+    cursor: pointer;
+    margin-top: 40px;
+    height: 70px;
+    background: #8c0000;
+    border: 1px solid #8c0000;
+    text-transform: uppercase;
+    font-size: 25px;
+    outline: none;
+}
+
+.back {
+    color: #FFF;
+    text-align: center;
+    float: left;
+    width: 40%;
+    cursor: pointer;
+    margin-top: 40px;
+    height: 70px;
+    background: #141519;
+    border: 1px solid #141519;
+    text-transform: uppercase;
+    font-size: 25px;
+    outline: none;
+}
+
+form button:hover {
+   opacity: 0.8;
+}
+
+.leftcontact {
+    width:50%;
+    float:left;
+    box-sizing: border-box;
+}
+
+.rightcontact {
+    width:50%;
+    float:right;
+    box-sizing: border-box;
+}
+
+span{
+    color: #F00;
+}
+
+.succes p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.succes a{
+    color: #8c0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.succes {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 97%;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    border: 2px solid #8c0000;
+    text-align: center;
+}
+
+.rightticket {
+    position: absolute;
+    bottom: 75px;
+    right: 50px;
+    float:right;
+    box-sizing: border-box;
+}
